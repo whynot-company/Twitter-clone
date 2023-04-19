@@ -4,9 +4,8 @@
   "private": true,
   "homepage": "https://whynot-company.github.io/twitter-clone",
   "scripts": {
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build && gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
