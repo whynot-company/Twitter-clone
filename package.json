@@ -5,7 +5,7 @@
   "homepage": "https://whynot-company.github.io/twitter-clone",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build && gh-pages -d build",
+    "build:": "next build",
     "start": "next start",
     "lint": "next lint"
   },
