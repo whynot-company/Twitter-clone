@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://whynot-company.github.io/twitter-clone",
   "scripts": {
+    "push": "npx prisma db push",
     "dev": "next dev",
     "build:": "next build",
     "start": "next start",
