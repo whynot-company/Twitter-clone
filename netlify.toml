@@ -1,2 +1,2 @@
 [build]
-command = 'npx prisma db push'
+command = 'npx prisma db push', 'next build'
